@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Koverwatch';
+    src: url('./font/koverwatch.ttf');
+}
+@font-face {
+    font-family: '카페24 단정해';
+    src: url('./font/Cafe24Danjunghae.ttf');
+}
+@font-face {
+    font-family: '카페24 아네모네';
+    src: url('./font/Cafe24Ohsquare.ttf');
+}
+@font-face {
+    font-family: '카페24 아네모네에어';
+    src: url('./font/Cafe24Ohsquareair.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color:#ffffff;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: 'Koverwatch';
+    font-size: large;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#greeting {
+    font-style: italic;
+    font-size: 3em;
+    font-weight: initial;
+}
+
+#clock {
+    font-size: 2em;
+}
+
+.buttonInput {
+    border: 0;
+    border-radius: 10px;
+    margin-left: 3px;
+    text-align: center;
+    font-size: small;
+}
+
+.textInput {
+    border: 0;
+    border-radius: 15px;
+    text-align: center;
+    height: 20px;
+    background-color: #ffffffdd;
+}
+
+li {
+    margin: 3px;
+}
+
+#top-thing {
+    display: block;
+}
+
+#bot-thing {
+    display: block;
+}
+
+.bbg {
+    padding: 4px 0;
+}
+
+.formsFont {
+    font-family: '카페24 당당해';
+}
+
+#quote {
+    font-family: '카페24 아네모네';
+    
+}
+
+#quote span:first-child {
+    background:#aa8a00;
+    display:block;
+    max-width: 100%;
+    padding:4px;
+}
+
+#quote span:last-child {
+    background:#907600;
+    display:block;
+    padding:4px;
+    font-family: '카페24 단정해';
+}
+
+#weather {
+    color:#000000;
+    background:#ffffffdd;
+    font-family: '카페24 아네모네에어';
+    transition: transform 1s;
+    display: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.weather-child {
+    background: #dddddd;
+    margin: 2px;
+    border: 2px solid #00000077;
+    border-radius: 10px;
+    padding: 1px 7px;
+    transition: transform 500ms;
+}
+
+#bgimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
